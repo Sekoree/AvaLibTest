@@ -1,0 +1,19 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AvaLibTest.MainWindow"
+        Title="AvaLibTest">
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Orientation="Vertical"
+                    Spacing="10">
+            <TextBlock Text="Hello there from some random Avalonia AOT app!"/>
+            <TextBox Watermark="You could write something here but it doesnt do anything"/>
+            <Slider Value="50"/>
+            <CheckBox IsChecked="True" Content="Wowie a checkbox!"/>
+            <DatePicker/>
+            <TimePicker/>
+        </StackPanel>
+</Window>
